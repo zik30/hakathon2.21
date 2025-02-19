@@ -1,0 +1,188 @@
+.main {
+  height: 100vh;
+  background-image: url("https://cdn.dribbble.com/userupload/5340168/file/original-1dee8bfca65f223e60c259b7a32c6aad.png?resize=1024x640&vertical=center");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  .main_inner {
+    text-align: left;
+    margin-left: 150px;
+    width: 635px;
+    h1 {
+      font-size: 96px;
+      font-weight: 600;
+      font-family: "Kantumruy Pro";
+      margin: 0 0 27px 0;
+      padding: 0;
+      line-height: 90px;
+      span {
+        color: #547afe;
+      }
+    }
+    p {
+      width: 600px;
+      margin: 0 0 50px 0;
+      font-size: 21px;
+      color: #565151;
+      font-family: "Average Sans";
+    }
+    button {
+      width: 300px;
+      height: 50px;
+      font-family: "Kantumruy Pro";
+      font-size: 25px;
+    }
+  }
+}
+
+.solutions {
+  background-color: #f5f7fb;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  .solutions_inner {
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 80px;
+    .img {
+      height: 600px;
+      width: 600px;
+      background-image: url("https://images.unsplash.com/photo-1518710098200-0ed3bc1b05e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGlnaHQlMjBibHVlfGVufDB8fDB8fHww");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .text {
+      width: 600px;
+      text-align: left;
+      h2 {
+        font-size: 60px;
+        font-weight: 600;
+        font-family: "Kantumruy Pro";
+        margin: 0 0 27px 0;
+        padding: 0;
+        line-height: 90px;
+        color: #ffbe0b;
+      }
+      p {
+        margin: 0 0 50px 0;
+        font-size: 21px;
+        color: #565151;
+        font-family: "Average Sans";
+      }
+    }
+  }
+}
+
+.plug {
+  background-color: #f5f7fb;
+  padding-bottom: 50px;
+  .plug_inner {
+    width: 1100px;
+    background-color: #547afe;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px 200px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.396) 0px 15px 25px,
+      rgba(0, 0, 0, 0.05) 0px 5px 10px;
+      transition: 0.5s;
+      &:hover{
+        background-color: #3761f9;
+      }
+    .text {
+      font-size: 60px;
+      line-height: 70px;
+      font-weight: 600;
+      font-family: "Kantumruy Pro";
+      color: #f5f7fb;
+    }
+  }
+}
+
+.digital {
+  background-color: #f5f7fb;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  .digital_inner {
+    width: 1100px;
+    margin: 0 auto;
+    h2 {
+      font-size: 60px;
+      font-weight: 600;
+      font-family: "Kantumruy Pro";
+      padding: 0;
+      line-height: 90px;
+      color: #1e1e1e;
+      width: 600px;
+      line-height: 70px;
+      text-align: center;
+      margin: 0 auto 27px;
+    }
+    .cards {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+      .card {
+        width: 300px;
+        height: 300px;
+        background-color: #fbfbfb;
+        border-radius: 30px;
+        padding: 30px 15px;
+        position: relative;
+        transition: 0.7s;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+        .circle{
+            height: 60px;
+            width: 60px;
+            background-color: #ffbe0b;
+            border-radius: 50px;
+            margin-bottom: 40px;
+        }
+        h3 {
+          color: #1e1e1e;
+          font-family: "Kantumruy Pro";
+          font-size: 26px;
+          font-weight: 600;
+          text-align: left;
+        }
+        p {
+          margin: 10px 0 50px 0;
+          font-size: 16px;
+          color: #565151;
+          font-weight: 300;
+          font-family: "Average Sans";
+          text-align: left;
+        }
+        span{
+            color: #547afe;
+            font-family: "Kantumruy Pro";
+            font-size: 20px;
+            font-weight: 600;
+            text-align: left;
+            position: absolute;
+            left: 15px;
+        }
+        &:hover{
+            background-color: #547afe;
+            .circle{
+                background-color: #f5f7fb;
+            }
+            h3 {
+              color: #fbfbfb;
+            }
+            p {
+              color: #fbfbfb;
+            }
+            span{
+                color: #fbfbfb;
+            }
+        }
+      }
+    }
+  }
+}
