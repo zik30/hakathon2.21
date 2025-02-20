@@ -1,0 +1,54 @@
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #fbfbfb;
+    border-radius: 30px;
+    padding: 30px 15px;
+    position: relative;
+    transition: 0.7s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    .circle{
+        height: 60px;
+        width: 60px;
+        background-color: #ffbe0b;
+        border-radius: 50px;
+        margin-bottom: 40px;
+    }
+    h3 {
+      color: #1e1e1e;
+      font-family: "Kantumruy Pro";
+      font-size: 26px;
+      font-weight: 600;
+      text-align: left;
+    }
+    p {
+      margin: 10px 0 50px 0;
+      font-size: 16px;
+      color: #565151;
+      font-weight: 300;
+      font-family: "Average Sans";
+      text-align: left;
+    }
+    .btn{
+        color: #547afe;
+        font-family: "Kantumruy Pro";
+        font-size: 20px;
+        font-weight: 600;
+        text-align: left;
+        position: absolute;
+        left: 15px;
+        border-radius: 20px;
+    }
+    &:hover{
+        background-color: #547afe;
+        .circle{
+            background-color: #f5f7fb;
+        }
+        h3 {
+          color: #fbfbfb;
+        }
+        p {
+          color: #fbfbfb;
+        }
+    }
+  }

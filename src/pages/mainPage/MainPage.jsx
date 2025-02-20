@@ -2,6 +2,7 @@ import { Button } from "antd";
 import stl from "./mainPage.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Header from "../../components/header/Header";
+import MainCard from "../../components/mainCard/MainCard";
 
 
 function MainPage() {
@@ -44,24 +45,9 @@ function MainPage() {
         <div className={stl.digital_inner}>
             <h2>Speedy digital experience creation</h2>
             <div className={stl.cards}>
-                <div className={stl.card}>
-                    <div className={stl.circle}></div>
-                    <h3>Educational Insights</h3>
-                    <p>Our courses are developed in collaboration with industry readres.</p>
-                    <span>Learn more ⮕</span>
-                </div>
-                <div className={stl.card}>
-                    <div className={stl.circle}></div>
-                    <h3>Educational Insights</h3>
-                    <p>Our courses are developed in collaboration with industry readres.</p>
-                    <span>Learn more ⮕</span>
-                </div>
-                <div className={stl.card}>
-                    <div className={stl.circle}></div>
-                    <h3>Educational Insights</h3>
-                    <p>Our courses are developed in collaboration with industry readres.</p>
-                    <span>Learn more ⮕</span>
-                </div>
+              <MainCard title='Educational Insights' body='Our courses are developed in collaboration with industry readres.'/>
+              <MainCard title='Educational Insights' body='Our courses are developed in collaboration with industry readres.'/>
+              <MainCard title='Educational Insights' body='Our courses are developed in collaboration with industry readres.'/>
             </div>
         </div>
       </div>
